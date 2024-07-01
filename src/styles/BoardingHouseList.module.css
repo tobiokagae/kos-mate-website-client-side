@@ -1,0 +1,55 @@
+.boardingHouseList {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .boardingHouseList h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .boardingHouseList p {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .boardingHouseList .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .boardingHouseList .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .boardingHouseList .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .boardingHouseList .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .boardingHouseList .card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: black;
+  }
+  
+  .boardingHouseList .card p {
+    color: #888;
+  }
+  
+  .boardingHouseList a{
+    text-decoration: none;
+  }

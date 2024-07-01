@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffd7b6;
+  }
+  
+  .footer .contact, .footer .links {
+    width: 45%;
+  }
+
+  .contact{
+    color: rgb(91, 91, 91);
+    font-weight: bolder;
+  }
+  
+  .links {
+    color: rgb(91, 91, 91);
+    font-weight: bolder;
+  }

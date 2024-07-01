@@ -1,0 +1,76 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modal {
+    background: #FF6F00;
+    padding: 20px;
+    border-radius: 8px;
+    width: 450px;
+    position: relative;
+}
+  
+.closeButtonImg {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 23px;
+    height: 23px;
+}
+  
+.title {
+    text-align: center;
+    color: white;
+}
+  
+.form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+  
+.form label {
+    color: white;
+    margin-right: 10px;
+    width: 120px;
+}
+  
+.form input, .form select {
+    flex: 1;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+}
+  
+.form input:focus, .form select:focus {
+    outline: none; /* Menghilangkan outline saat fokus */
+}
+  
+.saveButton {
+    background: #00C853;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.saveButton:hover {
+    background-color: #45a049;
+}

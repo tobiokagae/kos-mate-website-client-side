@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .title h1{
+    font-size: 35px;
+    font-weight: 900;
+    color: #ff8138;
+  }
+  .actions a {
+    padding: 10px 20px;
+    background-color: #ff8138;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,58 @@
+/* components/Login.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/house.jpg'); /* Pastikan untuk menambahkan gambar latar Anda */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .formContainer {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .title {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    color: #f4a261;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .registerButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ff8138;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signUp, .demoAccount {
+    color: #fff;
+    margin: 10px 0;
+  }
+  
+  .signUp a {
+    color: #ff9e00;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,325 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.header .logo img {
+  height: 50px;
+}
+
+.header .search input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.header .actions a {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.main {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+/* Detail */
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageAndInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Foto Kos */
+.imagePlaceholder {
+  flex-shrink: 0;
+}
+
+.imagePlaceholder img {
+  width: 700px;
+  height: 550px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+/* Info */
+
+.info h1 {
+  /* width: 400px; */
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.info p {
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Info Detail */
+.infoItem {
+  width: 450px;
+  margin-top: 40px;
+  background-color: #f4a261;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+}
+
+.infoItem p {
+  font-weight: bold;
+}
+
+/* Facilities */
+.facilities {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.facilityBox {
+  background-color: #f4a261;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+  width: 250px;
+}
+
+.facilityBox h3 {
+  margin-bottom: 10px;
+}
+
+.facilityBox ul {
+  list-style: none;
+  padding: 0;
+}
+
+.facilityBox ul li {
+  margin-bottom: 5px;
+}
+
+/* Avail */
+.avail {
+  background-color: #f4a261;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+  width: 250px;
+}
+
+.avail h3 {
+  margin-bottom: 10px;
+}
+
+.avail p {
+  list-style: none;
+  padding: 0;
+}
+
+/* Review Form */
+.reviewForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.reviewForm input,
+.reviewForm textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reviewForm button {
+  padding: 10px 20px;
+  background-color: #ff8138;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+
+/* Reviews */
+.reviews {
+  margin-top: 7%;
+  text-align: left;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-bottom: 5%;
+}
+
+.reviews h2 {
+  margin-bottom: 20px;
+}
+
+.reviews ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reviews ul li {
+  margin-bottom: 10px;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #f4a261;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .logo img {
+  height: 50px;
+}
+
+.footer .links,
+.footer .contacts {
+  text-align: left;
+}
+
+.footer .links ul,
+.footer .contacts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .links ul li,
+.footer .contacts ul li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1120px) {
+  .header .search input {
+    width: 300px;
+  }
+
+  .imageAndInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagePlaceholder img {
+    width: 700px;
+    height: 450px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .info {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .info h1 {
+    font-size: 1.5rem;
+  }
+
+  .rating {
+    font-size: 1.4rem;
+    justify-content: center;
+  }
+
+  .rating .star {
+    margin-right: 3px;
+  }
+
+  .infoItem {
+    padding: 15px;
+    font-weight: bold;
+  }
+
+  .facilities {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .facilityBox,
+  .avail {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .facilityBox h3,
+  .avail h3 {
+    margin-bottom: 10px;
+  }
+
+  .facilityBox ul,
+  .avail ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .facilityBox ul li,
+  .avail p {
+    margin-bottom: 5px;
+  }
+
+  .reviewForm input,
+  .reviewForm textarea {
+    width: 100%;
+  }
+
+  .reviewForm button {
+    width: 100%;
+  }
+
+  .reviews {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer .logo img {
+    height: 40px;
+  }
+
+  .footer .links,
+  .footer .contacts {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .footer .links ul,
+  .footer .contacts ul {
+    display: inline-block;
+  }
+}
